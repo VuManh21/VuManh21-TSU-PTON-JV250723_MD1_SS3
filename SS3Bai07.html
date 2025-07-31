@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="http:/www.myserver.com" method="POST">
+        <table>
+            <tr>
+                <th colspan="4">Sở Thích Của Bạn </th>
+            </tr>
+            <tr>
+                <td>
+                    <lable for="name">Họ Và Tên:</lable>
+                </td>
+                <td><input id="name" name="Ho Va Ten" type="text" /></td>
+            </tr>
+            <tr>
+                <td>
+                    <lable for="email">Email:</lable>
+                </td>
+                <td><input id="email" name="email" type="email" placeholder="ABC@gmail.com" /></td>
+            </tr>
+
+            <tr>
+                <td rowspan="3">Sở Thích :</td>
+                <td>
+                    <lable for="st1">Thể Thao</lable>
+                    <input id="st1" name="st1" type="checkbox" value="Thể Thao" />
+                </td>
+                <td>
+                    <lable for="st2">Âm nhạc</lable>
+                    <input id="st2" name="st2" type="checkbox" value="Âm nhạc" />
+                </td>
+                <td>
+                    <lable for="st3">Đọc Sách</lable>
+                    <input id="st3" name="st3" type="checkbox" value="Đọc Sách" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <lable for="st4">Lướt web</lable>
+                    <input id="st4" name="st4" type="checkbox" value="Lướt web" />
+                </td>
+                <td>
+                    <lable for="st5">Chơi game</lable>
+                    <input id="st5" name="st5" type="checkbox" value="Chơi game" />
+                </td>
+                <td>
+                    <lable for="st6">Điện ảnh</lable>
+                    <input id="st6" name="st6" type="checkbox" value="Điện ảnh" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <lable for="st7">Du lịch</lable>
+                    <input id="st7" name="st7" type="checkbox" />
+                </td>
+            </tr>
+
+            <tr>
+                <td><input id="send" name="send" type="submit" value="Giửi thông tin" /></td>
+                <td> <input id="reset" name="reset" type="reset" value="Nhập lại" /></td>
+            </tr>
+
+
+        </table>
+
+
+    </form>
+</body>
+
+</html>
